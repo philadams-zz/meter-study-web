@@ -1,0 +1,47 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+
+$border-color: #eeeeee;
+
+header {
+  @include outer-container(100%);
+  @include padding(3.5em 2em);
+  background-color: rgb(65, 150, 210);
+  h1 {
+    color: white;
+    font-size: modular-scale(5);
+    font-weight: normal;
+    text-align: center;
+  }
+}
+
+section {
+  @include outer-container;
+  border-bottom: 1px solid $border-color;
+  aside {
+    @include span-columns(4);
+    @include padding(1em);
+    color: rgb(211, 72, 31);
+    font-size: modular-scale(1);
+  }
+  article {
+    @include span-columns(8);
+    @include margin(1em 0);
+    @include padding(0.5em 2em 1.5em 2em);
+    border-left: 1px solid $border-color;
+  }
+}
+section:last-of-type {
+  border: none;
+}
+
+footer {
+  @include outer-container(100%);
+  @include padding(2em);
+  border-top: 1px solid $border-color;
+  p {
+    color: gray;
+    text-align: center;
+  }
+}
