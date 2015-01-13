@@ -3,6 +3,8 @@ Meter-study
 
 One-page site for participants of the Meter study (stage 2).
 
+![Meter study website screenshot](./meterstudydev-full.png)
+
 Set-up
 ------
 
