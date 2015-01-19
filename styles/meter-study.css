@@ -276,6 +276,9 @@ section {
     border-left: 1px solid #eeeeee; }
     section article:last-child {
       margin-right: 0; }
+  section iframe {
+    margin: 0.5em 0 0;
+    display: block; }
 
 section:last-of-type {
   border: none; }
