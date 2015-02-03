@@ -10,10 +10,3 @@ Set-up
 
 Clone this repo. At some point I'll figure out the best way to have a
 SASS-based repository.
-
-Future
-------
-
-- TODO mobile stylesheet
-- TODO video instructions
-- TODO insert instruction content
